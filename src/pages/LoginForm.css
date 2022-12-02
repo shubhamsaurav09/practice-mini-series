@@ -1,0 +1,38 @@
+h2 {
+  margin: 0;
+  transform: translate(25%, -75%);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.form-inner {
+  transform: translateY(75%);
+  background: wheat;
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 5px solid orange;
+  font-weight: 600;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+}
+
+#loginButton {
+  transform: translate(175%, 50%);
+  padding: 10px;
+  background: rgba(0, 0, 110, 0.4);
+  color: white;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  cursor: pointer;
+}

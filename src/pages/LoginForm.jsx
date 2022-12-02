@@ -12,9 +12,9 @@ export default function LoginForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (login.email === details.email && login.password === details.password)
-      console.log(`Welcome ${login.name}`);
+      alert(`Welcome, ${login.name}`);
     else {
-      console.log("Wrong credentials entered");
+      alert("Wrong credentials entered");
     }
   };
 
@@ -22,7 +22,7 @@ export default function LoginForm() {
     <div className="container">
       <form onSubmit={handleSubmit}>
         <div className="form-inner">
-          <h2>Login</h2>
+          <h2>Login Form</h2>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
@@ -53,7 +53,7 @@ export default function LoginForm() {
               required
             />
           </div>
-          <input type="submit" value="Login" />
+          <input id="loginButton" type="submit" value="Login" />
         </div>
       </form>
     </div>
