@@ -1,4 +1,4 @@
-h2 {
+.form-inner h2 {
   margin: 0;
   transform: translate(25%, -75%);
 }
@@ -11,8 +11,15 @@ h2 {
   justify-content: center;
 }
 
+.login-inner-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
 .form-inner {
-  transform: translateY(70%);
   background: wheat;
   padding: 3rem;
   border-radius: 2rem;
