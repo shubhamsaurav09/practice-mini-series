@@ -19,14 +19,17 @@ export default function SearchFilter() {
   return (
     <div className="container">
       <h1>Search Filter</h1>
-      <label htmlFor="search">
-        Search: <input id="search" type="text" onChange={handleSearch}></input>
-      </label>
-      <ul>
-        {filteredList.map((elem) => (
-          <i>{elem}</i>
-        ))}
-      </ul>
+      <div className="inner-container">
+        <label htmlFor="search">
+          Search:{" "}
+          <input id="search" type="text" onChange={handleSearch}></input>
+        </label>
+        <ul>
+          {filteredList.map((elem) => (
+            <i>{elem}</i>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

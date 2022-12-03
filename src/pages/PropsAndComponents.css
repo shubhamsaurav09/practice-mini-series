@@ -1,0 +1,20 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background: wheat;
+  border: 2px solid orange;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
