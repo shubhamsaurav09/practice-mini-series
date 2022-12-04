@@ -1,0 +1,24 @@
+.fetch_api_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.fetch_inner_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+#fetch_button {
+  width: 200px;
+  margin-top: 4rem;
+  text-align: center;
+  border: 1px solid transparent;
+  background: rgba(255, 0, 0, 0.7);
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem;
+}
