@@ -14,8 +14,8 @@ const animals = [
 
 export default function PropsAndComponents() {
   return (
-    <div className="container">
-      <div className="inner-container">
+    <div className="props_container">
+      <div className="props_inner-container">
         <h2>Props and Components</h2>
         {animals.map((elem) => (
           <Button name={elem} />

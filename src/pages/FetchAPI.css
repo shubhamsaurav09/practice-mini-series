@@ -1,9 +1,12 @@
 .fetch_api_container {
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+  background: lightgray;
 }
 
 .fetch_inner_container {

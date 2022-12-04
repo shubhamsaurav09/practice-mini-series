@@ -1,36 +1,38 @@
-.form-inner h2 {
-  margin: 0;
-  transform: translate(25%, -75%);
-}
-
-.container {
+.login_container {
   width: 100vw;
   height: 100vh;
-  background: white;
+  background: lightcyan;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.login-inner-container {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
+.login_inner_container {
   background: transparent;
 }
 
-.form-inner {
+.form_inner {
   background: wheat;
-  padding: 3rem;
+  padding: 4rem;
   border-radius: 2rem;
   border: 5px solid orange;
   font-weight: 600;
 }
 
-.form-group {
+.form_group {
   display: flex;
-  flex-direction: column;
-  padding: 0 4rem;
+  padding: 1rem 2rem;
+  justify-content: first baseline;
+  gap: 10px;
+}
+
+.form_group input {
+  width: 150px;
+}
+
+.form_inner h2 {
+  margin: 0;
+  transform: translate(25%, -75%);
 }
 
 #loginButton {

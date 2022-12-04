@@ -1,12 +1,13 @@
-.container {
+.props_container {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: lightblue;
 }
 
-.inner-container {
+.props_inner-container {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -18,6 +19,6 @@
   align-items: center;
 }
 
-.inner-container h2 {
+.props_inner-container h2 {
   transform: translateY(-50%);
 }

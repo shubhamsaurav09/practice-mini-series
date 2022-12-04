@@ -4,8 +4,8 @@ import "./App.css";
 import LoginForm from "./pages/LoginForm";
 import PropsAndComponents from "./pages/PropsAndComponents";
 import FetchAPI from "./pages/FetchAPI";
-import SearchFilter from "./pages/SearchFilter";
-import CounterApp from "./pages/CounterApp";
+// import CounterApp from "./pages/CounterApp";
+// import SearchFilter from "./pages/SearchFilter";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <LoginForm />
       <PropsAndComponents />
       <FetchAPI />
-      <SearchFilter />
-      <CounterApp />
+      {/* <SearchFilter /> */}
+      {/* <CounterApp /> */}
     </div>
   );
 }

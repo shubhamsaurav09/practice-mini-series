@@ -19,12 +19,12 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="container">
-      <div className="login-inner-container">
+    <div className="login_container">
+      <div className="login_inner_container">
         <form onSubmit={handleSubmit}>
-          <div className="form-inner">
+          <div className="form_inner">
             <h2>Login Form</h2>
-            <div className="form-group">
+            <div className="form_group">
               <label htmlFor="name">Name:</label>
               <input
                 type="text"
@@ -34,7 +34,7 @@ export default function LoginForm() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form_group">
               <label htmlFor="email">Email:</label>
               <input
                 type="email"
@@ -44,7 +44,7 @@ export default function LoginForm() {
                 required
               />
             </div>
-            <div className="form-group">
+            <div className="form_group">
               <label htmlFor="password">Password:</label>
               <input
                 type="password"
