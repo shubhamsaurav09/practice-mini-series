@@ -1,11 +1,24 @@
-.container {
+.search_container {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgoldenrodyellow;
+}
+
+.search_inner_container {
+  background: wheat;
+  padding: 4rem;
+  border: 5px solid orange;
+  border-radius: 2rem;
 }
 
 h1 {
   margin: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+  transform: translateX(10%);
 }
 
 ul {

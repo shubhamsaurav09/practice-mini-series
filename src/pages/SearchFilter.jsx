@@ -17,9 +17,9 @@ export default function SearchFilter() {
   };
 
   return (
-    <div className="container">
-      <h1>Search Filter</h1>
-      <div className="inner-container">
+    <div className="search_container">
+      <div className="search_inner_container">
+        <h1>Search Filter</h1>
         <label htmlFor="search">
           Search:{" "}
           <input id="search" type="text" onChange={handleSearch}></input>

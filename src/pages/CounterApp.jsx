@@ -13,18 +13,22 @@ export default function CounterApp() {
   };
 
   return (
-    <div className="container">
-      <h1>Counter App</h1>
-      <p>
-        Count:{" "}
-        <span className={count >= 0 ? "greenColor" : "redColor"}>{count}</span>
-      </p>
-      <button className="increment" onClick={handleIncrement}>
-        +
-      </button>
-      <button className="decrement" onClick={handleDecrement}>
-        -
-      </button>
+    <div className="counter_container">
+      <div className="inner_counter_container">
+        <h1>Counter App</h1>
+        <p>
+          Count:{" "}
+          <span className={count >= 0 ? "greenColor" : "redColor"}>
+            {count}
+          </span>
+        </p>
+        <button className="increment" onClick={handleIncrement}>
+          +
+        </button>
+        <button className="decrement" onClick={handleDecrement}>
+          -
+        </button>
+      </div>
     </div>
   );
 }

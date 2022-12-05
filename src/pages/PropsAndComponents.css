@@ -4,19 +4,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: lightblue;
+  background: lightgoldenrodyellow;
 }
 
 .props_inner-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 400px;
+  padding: 4rem;
   background: wheat;
   border: 5px solid orange;
   border-radius: 2rem;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .props_inner-container h2 {

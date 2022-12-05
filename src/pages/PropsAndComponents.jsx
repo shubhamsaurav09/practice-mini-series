@@ -1,24 +1,21 @@
 import React from "react";
 import "./PropsAndComponents.css";
-import Button from "../components/Button";
+import Nav from "../components/Nav";
 
-const animals = [
-  "SearchAndFilter",
-  "LoginForm",
-  "CounterApp",
-  "PropsAndComponents",
-  "FetchAPI",
-  "Accordion",
-  "Stepper",
+const concepts = [
+  { component: "Login Form", path: "/loginform" },
+  { component: "Counter App", path: "/counterapp" },
+  { component: "Search Filter", path: "/searchfilter" },
+  { component: "Fetch API", path: "/fetchapi" },
 ];
 
 export default function PropsAndComponents() {
   return (
     <div className="props_container">
       <div className="props_inner-container">
-        <h2>Props and Components</h2>
-        {animals.map((elem) => (
-          <Button name={elem} />
+        <h2>React Basics</h2>
+        {concepts.map((elem) => (
+          <Nav name={elem.component} path={elem.path} />
         ))}
       </div>
     </div>
