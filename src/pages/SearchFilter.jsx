@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { DebounceInput } from "react-debounce-input";
 import "./SearchFilter.css";
 
 const list = ["Banana", "Apple", "Orange", "Mango", "Pineapple", "Watermelon"];
@@ -22,7 +23,12 @@ export default function SearchFilter() {
         <h1>Search Filter</h1>
         <label htmlFor="search">
           Search:{" "}
-          <input id="search" type="text" onChange={handleSearch}></input>
+          <DebounceInput
+            id="search"
+            type="text"
+            debounceTimeout={1000}
+            onChange={handleSearch}
+          ></DebounceInput>
         </label>
         <ul>
           {filteredList.map((elem) => (
